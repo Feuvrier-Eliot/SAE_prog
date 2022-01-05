@@ -1,0 +1,21 @@
+
+:root {
+/* Color styles */
+--rouge: rgba(162, 19, 17, 1);
+--noir: rgba(26, 27, 27, 1);
+--gris: rgba(144, 148, 148, 1);
+--blanc: rgba(255, 255, 255, 1);
+--blanc-clair: rgba(246, 247, 247, 1);
+
+/* Text-size styles */
+--asap-regular: 15px;
+--asap-text: 20px;
+--bentham-regular: 30px;
+
+
+      /* Polices de caractère */
+      --font-1: 'Asap', sans-serif;
+      --font-2: 'Bentham', serif;
+    
+    
+    }

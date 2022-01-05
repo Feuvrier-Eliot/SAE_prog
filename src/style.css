@@ -1,0 +1,29 @@
+
+/* police bentham */
+@import url('https://fonts.googleapis.com/css2?family=Bentham&display=swap');
+
+/* police asap */
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+
+/*normalize*/
+@import "vendors/normalize.css";
+
+/* Utils */
+@import "utils/variables.css";
+
+/* Base */
+@import "base/main.css";
+@import "base/media.css";
+
+/*layout*/
+@import "layout/header.css";
+@import "layout/footer.css";
+@import "layout/body.css";
+@import "layout/article_1.css";
+@import "layout/article_2.css";
+@import "layout/article_3.css";
+
+/*component*/
+@import "component/menu.css";
+@import "component/formulaire.css";
+@import "component/carrousel.css";

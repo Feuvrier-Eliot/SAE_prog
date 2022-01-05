@@ -1,0 +1,30 @@
+.image_droite {
+   position: relative;
+    width: 91px;
+    height: 138px;
+    left: 290px;
+}
+
+.image_gauche {
+   position: relative;
+    width: 133px;
+    height: 173px;
+    left: 200px;
+    
+}
+
+.texte_gauche {
+    position: absolute;
+width: 170px;
+height: 193px;
+left: 26px;
+top: 320px;
+    
+}
+
+.texte_en_gras {
+    font-family: var(--font-2);
+    margin: 10%;
+    font-weight: bold;
+    color: var(--noir);
+}

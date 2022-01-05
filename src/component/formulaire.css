@@ -1,0 +1,36 @@
+.formulaire {
+    font-family: var(--font-1);
+    font-size: 30px;
+    margin-left: 10%;
+}
+
+
+.input {
+    margin-left: 5%;
+    margin-top: 5%;
+    border: none;
+    font-family: var(--font-1);
+    font-size: 16px;
+    
+    
+}
+
+#barre3{
+    border-radius: 10px;
+    margin: 5%;
+    height: 2px;
+    width: 90%;
+    background-color:var(--gris);
+ }
+
+ .bouton_envoyer {
+     width: 89px;
+     height: 41px;
+     font-family: var(--font-1);
+    margin-left: 10%;
+    margin-bottom: 5%;
+     background-color: var(--blanc);
+     border-color: var(--gris);
+     border-style: solid;
+     color: var(--gris);
+ }

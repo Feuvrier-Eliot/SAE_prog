@@ -1,0 +1,65 @@
+
+#barre2{
+    border-radius: 10px;
+    margin: 2%;
+    height: 2px;
+    width: 90%;
+    background-color:var(--noir);
+ }
+
+ .img_article1 {
+    width: 100px;
+    height: 104px;
+    margin-bottom: -93px;
+ }
+
+.img_article2 {
+    width: 100px;
+    height: 138px;
+    margin-bottom: -111px;
+} 
+
+.img_article3 {
+    width: 100px;
+    height: 69px;
+    margin-bottom: -92px;
+}
+
+.description {
+    text-align: center;
+    margin-left: 140px;
+    margin-right: 8%;
+    top: -50px;
+    line-height: 1.3;
+}
+
+.gras_rouge {
+    font-weight: bold;
+    color: var(--rouge);
+}
+
+.Article a {
+    text-decoration: none;
+    color: var(--gris);
+}
+
+.forme_article {
+    background-color: var(--noir);
+    width: 80%;
+    margin-left: 0;
+    height: 72px;
+    
+    
+}
+
+.titre_article {
+    text-align: center;
+    margin-top: 36px;
+    padding-top: 12px;
+    
+}
+
+.texte {
+    margin: 10%;
+}
+

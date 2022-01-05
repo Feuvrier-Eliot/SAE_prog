@@ -1,0 +1,21 @@
+  /* Pour rendre les images responsives */
+  img {
+    max-width: 100%;
+    height: auto;
+    justify-content: center;
+   
+  
+    
+ 
+  }
+  
+  /* Mise en forme des légendes pour les images */
+  figure {
+    margin: 0;
+  }
+  
+.img {
+    width: 95%;
+    margin: 2%;
+}
+

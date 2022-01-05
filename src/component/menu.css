@@ -8,7 +8,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 2;
+    z-index: 4;
   }
   .nav-toogle-bar,
   .nav-toogle-bar::before,
@@ -57,7 +57,7 @@
     align-items: center;
     transform: translateX(100vw);
     transition: all .4s;
-    z-index: 1;
+    z-index: 3;
     
     
   }
@@ -78,7 +78,7 @@
     
   }
   .menu li{
-    margin-left: 5%;
+    margin-left: 10%;
     margin-top: 13px;
     margin-bottom: -5px;
     transform: translateX(30px);

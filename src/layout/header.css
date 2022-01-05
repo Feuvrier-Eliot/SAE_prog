@@ -11,7 +11,8 @@
 
 #barre{
     border-radius: 10px;
-    margin: 2%;
+    margin-left: 10%;
+    margin-top: 8%;
     height: 2px;
     width: 90%;
     background-color:var(--rouge);

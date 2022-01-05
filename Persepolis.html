@@ -9,6 +9,9 @@
     <script src="/fonction.js"></script>
     <title>DESTINS D’IRAN</title>
     <link rel="stylesheet" href="src/style.css">
+    <script src="https://unpkg.com/alpinejs@3.2.2/dist/cdn.min.js"></script>
+		<script src="https://animejs.com/lib/anime.min.js"></script>
+        <script src="fonction.js"></script>
 </head>
 <body>
     <header class="header">
@@ -46,8 +49,13 @@
     <br>
     <main class="body">
 
-        <img src="images/okimage.webp" alt="Image article Persepolis">
-
+        <div class="visionneuse">
+            <div class="image"
+                x-on:mouseover="monterLegende();"
+                x-on:mouseleave="descendreLegende();">
+                <img src="images/okimage.webp" alt="Image article Persepolis"></div>
+            <p class="texte_js">Okimage</p>
+        </div>
         
            
             <article>

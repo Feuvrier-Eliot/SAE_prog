@@ -9,13 +9,12 @@
 	overflow: hidden;
 }
 
-.image img{
-	width: 100%;
+.image {
 	z-index: 1;
 	position: relative;
 }
 		
-.texte1 {
+.texte_js {
 	font-family: var(--font-2);
     font-size: 30px;
     color: var(--rouge);

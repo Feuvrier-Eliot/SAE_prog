@@ -48,9 +48,9 @@ function carrousel4Images() {
 }
 
 function monterLegende() {
-    document.querySelector('.texte1').style.display = 'block';
+    document.querySelector('.texte_js').style.display = 'block';
     return anime({
-        targets: '.texte1',
+        targets: '.texte_js',
         translateY: '-5em',
         autoplay: false,
         easing: 'linear',
@@ -60,9 +60,9 @@ function monterLegende() {
 }
 
 function descendreLegende() {
-    document.querySelector('.texte1').style.display = 'block';
+    document.querySelector('.texte_js').style.display = 'block';
     return anime({
-        targets: '.texte1',
+        targets: '.texte_js',
         translateY: '0',
         autoplay: false,
         easing: 'linear',

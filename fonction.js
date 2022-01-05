@@ -19,22 +19,60 @@ function carrousel4Images() {
         img.style.zIndex = fi_lm.length - indice;
     });
 
-    let anim15 = anime.timeline({
+    let anim153 = anime.timeline({
         loop: true,
         delay: 0
     });
 
     anim153.add({
         targets: fi_lm,
-        translateX: [{value: '500', duration: d},
-                     {value: '-500', duration: 0, delay: function(img,ind) {
+        translateX: [{value: '288', duration: d},
+                     {value: '-288', duration: 0, delay: function(img,ind) {
                          if (ind == 0) return (3*delta)+(2*d);
                          if (ind == 1) return (2*delta)+d;
                          if (ind == 2) return delta;
                          return 0;
                      }},
                      {value: '0', duration: function(img,ind) {
-                         if (ind == 3) return 0;
+                         if (ind == 2) return 0;
+                         return d;
+                     }}],
+        easing: 'linear',
+        delay: function(img,ind) {
+            if (ind == 0) return delta;
+            if (ind == 1) return (2*delta)+d;
+            if (ind == 2) return (3*delta)+(2*d);
+            return (4*delta)+(3*d);
+        }
+    });
+}
+
+
+function carrousel4Images() {
+    var fi_lm = document.querySelectorAll('.li_vre');
+    let d = 2000;
+    let delta = 1000;
+
+    fi_lm.forEach(function(img,indice) {
+        img.style.zIndex = fi_lm.length - indice;
+    });
+
+    let anim153 = anime.timeline({
+        loop: true,
+        delay: 0
+    });
+
+    anim153.add({
+        targets: fi_lm,
+        translateX: [{value: '288', duration: d},
+                     {value: '-288', duration: 0, delay: function(img,ind) {
+                         if (ind == 0) return (3*delta)+(2*d);
+                         if (ind == 1) return (2*delta)+d;
+                         if (ind == 2) return delta;
+                         return 0;
+                     }},
+                     {value: '0', duration: function(img,ind) {
+                         if (ind == 2) return 0;
                          return d;
                      }}],
         easing: 'linear',

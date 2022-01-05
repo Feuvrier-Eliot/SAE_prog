@@ -15,27 +15,6 @@
     margin-bottom: 15px;
 }
 
-.f_lm img{
-    width: 288px;
-    height: 370px;
-}
-
-
-.f_lm {
-    width: auto;
-    height: auto;
-    left:0;
-}
-
-
-
-.fi_lm, .fi_lm, .fi_lm {
-    position: absolute;
-    top:0;
-    left:0;
-    z-index: 0;
-}
-
 
 .l_vre img{
     width: 288px;

@@ -4,14 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://animejs.com/lib/anime.min.js" ></script>
     <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
-    <script src="fonction.js"></script>
     <title>DESTINS D’IRAN</title>
     <link rel="stylesheet" href="src/style.css">
-    <script src="https://unpkg.com/alpinejs@3.2.2/dist/cdn.min.js"></script>
-		<script src="https://animejs.com/lib/anime.min.js"></script>
-        <script src="fonction.js"></script>
+    <script src="https://animejs.com/lib/anime.min.js"></script>
+        <script src="src/js/fonction.js"></script>
 </head>
 <body>
     <header class="header">
@@ -53,12 +50,14 @@
         <h1>DESTINS D’IRAN</h1>
  
             
-            <div class="visionneuse">
-                <div class="image"
-                    x-on:mouseover="monterLegende();"
-					x-on:mouseleave="descendreLegende();">
-                <img src="images/Perspolis_page_d'accueil.webp" alt="Photo page d'accueil"></div>
-                <p class="texte_js">Perspolis</p>
+            <div x-data="{animation: true}" class="animationimage">
+                <div x-on:click="animation ? animation=false : animation=true;" class="blocimg" >
+                    <img x-show="animation" class="imageanime1" src="images/Perspolis_page_d'accueil.webp">
+                </div>
+        
+                <div x-on:click="animation ? animation=false : animation=true;" class="blocimg">
+                    <img x-show="!animation" class="imageanime2" src="images/okimage.webp">
+                </div>
             </div>
         
 

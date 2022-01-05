@@ -46,3 +46,29 @@ function carrousel4Images() {
         }
     });
 }
+
+function monterLegende() {
+    document.querySelector('.texte1').style.display = 'block';
+    return anime({
+        targets: '.texte1',
+        translateY: '-5em',
+        autoplay: false,
+        easing: 'linear',
+        duration: 200
+    }).play;
+
+}
+
+function descendreLegende() {
+    document.querySelector('.texte1').style.display = 'block';
+    return anime({
+        targets: '.texte1',
+        translateY: '0',
+        autoplay: false,
+        easing: 'linear',
+        duration: 200
+    
+	
+    }).play;
+
+} 
